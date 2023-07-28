@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  transition: 0.3s ease-out;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+
+  .header-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .nav {
+      .li {
+        text-transform: uppercase;
+        font-weight: 500;
+        padding: 0.2rem 0.7rem;
+        border-radius: 5px;
+        transition: 0.1s ease-out;
+        color: #303030;
+        text-decoration: none;
+        font-size: 1rem;
+        margin: 0rem 1rem;
+      }
+      .activeProject {
+        background-color: mediumslateblue !important;
+        color: white;
+      }
+      .activeContact {
+        background-color: mediumslateblue !important;
+        color: white;
+      }
+      .activeSkills {
+        background-color: mediumslateblue !important;
+        color: white;
+      }
+      .activeAbout {
+        background-color: mediumslateblue !important;
+        color: white;
+      }
+      .li:hover {
+        background-color: mediumslateblue;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
+

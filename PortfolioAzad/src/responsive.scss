@@ -1,0 +1,487 @@
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .header {
+    max-width: 960px;
+    min-width: 720px;
+    .header-left img {
+      display: none;
+    }
+  }
+  .container {
+    max-width: 960px;
+    min-width: 720px;
+    .main {
+      .projects {
+        .box {
+          background-color: transparent;
+          width: 90%;
+          .photo {
+            width: 50%;
+            .carousel {
+              .image {
+                #biggericon {
+                  display: none !important;
+                }
+              }
+            }
+          }
+          .about {
+            .icons {
+              margin-top: 0.1rem;
+            }
+            * {
+              font-size: 1rem;
+            }
+            .text {
+              h3 {
+                font-size: 0.9rem;
+              }
+            }
+          }
+        }
+      }
+
+      .swipper-for-skills {
+        width: 30%;
+      }
+      .my-about {
+        width: 100%;
+        * {
+          font-size: 0.8rem;
+        }
+        .my-photos {
+          width: 35%;
+        }
+        .about .header-about .top-about {
+          width: 150%;
+          position: relative;
+          right: 9rem;
+          .right {
+            h3 {
+              font-size: 1rem;
+            }
+            strong {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+  .header {
+    max-width: 100%;
+    min-width: 100%;
+    .header-left img {
+      display: none;
+    }
+  }
+  .container {
+    max-width: 100%;
+    min-width: 100%;
+    .main {
+      .projects {
+        .uiverse {
+          width: 70%;
+        }
+
+        .box {
+          background-color: transparent;
+          flex-direction: column !important;
+          width: 90%;
+          .photo {
+            width: 70%;
+            .carousel {
+              .image {
+                #biggericon {
+                  display: none !important;
+                }
+              }
+            }
+          }
+          .about {
+            .icons {
+              margin-top: 0.1rem;
+            }
+            * {
+              font-size: 1rem;
+            }
+            .text {
+              h3 {
+                font-size: 1.3rem;
+              }
+            }
+          }
+        }
+      }
+      .projectsmain {
+        .uiverse2 {
+          width: 70%;
+        }
+      }
+
+      .text-area {
+        width: 93%;
+        .developer {
+          h4 {
+            font-size: 1.3rem;
+          }
+        }
+        .hello {
+          h1,
+          h2 {
+            font-size: 1.5rem;
+          }
+        }
+        .text {
+          p {
+            font-size: 0.9rem;
+            text-align: center;
+          }
+        }
+      }
+      .swipper-for-skills {
+        width: 45%;
+      }
+      .my-about {
+        #aboutTitle {
+          font-size: 1rem;
+        }
+        width: 100%;
+        * {
+          font-size: 0.8rem;
+        }
+        .my-photos {
+          width: 30%;
+          margin-bottom: 13rem;
+        }
+        .about .header-about .top-about {
+          width: 120%;
+          position: relative;
+          right: 6.3rem;
+          .right {
+            h3 {
+              font-size: 0.8rem;
+            }
+            strong {
+              font-size: 0.8rem;
+            }
+          }
+          .left {
+            h1 {
+              font-size: 0.8rem;
+            }
+          }
+        }
+        .about {
+          .header-about {
+            .me-about-paragraph {
+              p {
+                font-size: 0.8rem;
+                width: 115%;
+                position: relative;
+                right: 2rem;
+              }
+            }
+            .cv-form {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .contact-me {
+    * {
+      font-size: 3.3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 468px) {
+  .header {
+    max-width: 100%;
+    min-width: 100%;
+    .header-left img {
+      display: none;
+    }
+  }
+  .container {
+    max-width: 100%;
+    min-width: 100%;
+    .main {
+      .projects {
+        .uiverse {
+          width: 70%;
+        }
+
+        .box {
+          background-color: transparent;
+          flex-direction: column !important;
+          width: 90%;
+          .photo {
+            width: 90%;
+            .carousel {
+              .image {
+                #biggericon {
+                  display: none !important;
+                }
+              }
+            }
+          }
+          .about {
+            .icons {
+              margin-top: 0.1rem;
+            }
+            * {
+              font-size: 1rem;
+            }
+            .text {
+              h3 {
+                font-size: 1.1rem;
+              }
+            }
+          }
+        }
+      }
+      .projectsmain {
+        .uiverse2 {
+          width: 70%;
+        }
+      }
+
+      .text-area {
+        width: 93%;
+        .developer {
+          h4 {
+            font-size: 1.3rem;
+          }
+        }
+        .hello {
+          h1,
+          h2 {
+            font-size: 1.5rem;
+          }
+        }
+        .text {
+          p {
+            font-size: 0.9rem;
+            text-align: center;
+          }
+        }
+      }
+      .swipper-for-skills {
+        width: 45%;
+      }
+      .my-about {
+        #aboutTitle {
+          font-size: 1rem;
+        }
+        width: 100%;
+        * {
+          font-size: 0.8rem;
+        }
+        .my-photos {
+          width: 30%;
+          margin-bottom: 20rem;
+        }
+        .about .header-about .top-about {
+          width: 140%;
+          position: relative;
+          right: 4.7rem;
+          .right {
+            h3 {
+              font-size: 0.8rem;
+            }
+            strong {
+              font-size: 0.8rem;
+            }
+          }
+          .left {
+            h1 {
+              font-size: 0.8rem;
+            }
+          }
+        }
+        .about {
+          .header-about {
+            .me-about-paragraph {
+              p {
+                font-size: 0.8rem;
+                width: 110%;
+                position: relative;
+                right: 2rem;
+              }
+            }
+            .cv-form {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .contact-me {
+    * {
+      font-size: 3.3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 468px) and (min-width: 310px) {
+  .header {
+    max-width: 100%;
+    min-width: 100%;
+    .header-left img {
+      display: none;
+    }
+    .mobile-navbar {
+      .nav {
+        .li {
+          font-size: 1.2rem;
+          margin: 0;
+        }
+      }
+    }
+  }
+  .container {
+    max-width: 100%;
+    min-width: 100%;
+    .main {
+      .projects {
+        .uiverse {
+          width: 70%;
+        }
+
+        .box {
+          background-color: transparent;
+          flex-direction: column !important;
+          width: 90%;
+          .photo {
+            width: 93%;
+            .carousel {
+              .image {
+                #biggericon {
+                  display: none !important;
+                }
+              }
+            }
+          }
+          .about {
+            .icons {
+              margin-top: 0.1rem;
+            }
+            * {
+              font-size: 1rem;
+            }
+            .text {
+              h3 {
+                font-size: 0.9rem;
+              }
+            }
+          }
+        }
+      }
+      .projectsmain {
+        .uiverse2 {
+          width: 70%;
+        }
+      }
+
+      .text-area {
+        width: 85%;
+        .developer {
+          h4 {
+            font-size: 1.1rem;
+          }
+        }
+        .hello {
+          h1,
+          h2 {
+            font-size: 1.3rem;
+          }
+        }
+        .text {
+          p {
+            font-size: 0.8rem;
+            text-align: center;
+          }
+          .Typewriter__wrapper {
+            font-size: 0.8rem;
+          }
+        }
+      }
+      .swipper-for-skills {
+        width: 100%;
+        button {
+          display: block;
+        }
+      }
+      .my-about {
+        #aboutTitle {
+          font-size: 1rem;
+        }
+        width: 100%;
+        * {
+          font-size: 0.7rem;
+        }
+        .my-photos {
+          width: 30%;
+          margin-bottom: 27rem;
+          display: none;
+        }
+        .about .header-about .top-about {
+          width: 100%;
+          background-color: transparent;
+          position: relative;
+          right: 0rem;
+          .right {
+            h3 {
+              font-size: 0.7rem;
+            }
+            strong {
+              font-size: 0.7rem;
+            }
+          }
+          .left {
+            align-items: flex-start;
+            margin-left: 0.5rem;
+            border: none;
+            h1 {
+              font-size: 0.7rem;
+            }
+          }
+        }
+        .about {
+          .header-about {
+            .me-about-paragraph {
+              p {
+                font-size: 0.8rem;
+                width: 100%;
+                position: relative;
+                right: 0rem;
+              }
+            }
+            .cv-form {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  .contact-me {
+    * {
+      font-size: 2.4rem;
+    }
+    .icons-contact {
+      .icons {
+        column-gap: 0% !important;
+      }
+    }
+  }
+}
